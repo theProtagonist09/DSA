@@ -24,5 +24,6 @@ int singleElement(arr){
 int main(){
     int n=5;
     vector <int> arr={4,1,2,1,2};
-
+    int ans= singleElement(arr);
+    cout<<"Single Element is "<<ans<<endl;
 }
