@@ -19,7 +19,9 @@
         "prefix": "bits",
         "body": [
             "#include<bits/stdc++.h>",
-            "using namespace std;"
+            "using namespace std;",
+			"",
+			"int main(){}"
         ],
         "description": "Includes bits/stdc++.h and adds using namespace std"
     }
