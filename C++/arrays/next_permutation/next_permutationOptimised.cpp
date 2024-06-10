@@ -39,10 +39,18 @@ All permutations of {1,2,3} are {{1,2,3} , {1,3,2}, {2,13} , {2,3,1}
             }
         }
         swap(arr[idx],arr[target]);
-        reverse(arr+idx+1,arr+n);
+        reverse(arr+idx+1,arr+n);  
     }
 
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
+
+/*Time Complexity: O(3N), where N = size of the given array
+Finding the break-point, finding the next greater element, and reversal
+ at the end takes O(N) for each, where N is the number of elements in the input array.
+  This sums up to 3*O(N) which is approximately O(3N).
+
+Space Complexity: Since no extra storage is required.
+ Thus, its space complexity is O(1).*/
  }
