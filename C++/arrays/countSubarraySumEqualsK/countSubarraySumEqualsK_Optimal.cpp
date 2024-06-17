@@ -8,7 +8,7 @@ int findAllSubarraysWithGivenSum(vector <int> & arr,int k){
     int n= arr.size();
     int cnt=0;
     map<int,int>mpp;
-
+//not full code
 
 }
 
