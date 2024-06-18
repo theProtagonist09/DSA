@@ -62,6 +62,6 @@ The lower bound is the smallest index, ind, where arr[ind] >= x. But if any
 
 
     /*C++ STL for lower bound and upper Bound
-    lb=lower_bound(arr.begin(),arr.end(),x) - arr.;
-    ub=upper_bound(arr.begin(),arr.end(),x);*/
+    lb=lower_bound(arr.begin(),arr.end(),x) - arr.begin();
+    ub=upper_bound(arr.begin(),arr.end(),x) - arr.begin();  */
  }
