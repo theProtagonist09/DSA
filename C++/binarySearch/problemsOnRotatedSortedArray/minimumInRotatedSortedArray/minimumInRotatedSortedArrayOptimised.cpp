@@ -14,10 +14,14 @@
         while(low<=high){
             int mid=(low+high)/2;
             if(nums[low]<=nums[mid]){  //if left half is sorted
-              mini=min(mini,nums[low]); //update minimum
+              if(nums[low]<mini){
+                mini=nums[low];    //update mini
+               }
               low=mid+1;   //then move to unsorted part
             }else{  //if right half is sorted
-                mini=min(mini,nums[mid]);  //update minimum
+                if(nums[mid]<mini){
+                mini=nums[mid];    //update mini
+               }
                 high=mid-1; //then move to unsorted part
             }
         }
