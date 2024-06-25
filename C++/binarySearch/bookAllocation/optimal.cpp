@@ -9,7 +9,9 @@ Each book should be allocated to only one student.
 Book allocation should be in a contiguous manner.
 You have to allocate the book to ‘m’ students such that the
  maximum number of pages assigned to a student is minimum. 
- If the allocation of books is not possible. return -1*/
+ If the allocation of books is not possible. return -1
+ 
+ NOTE: similar to these prob are, painter's partition and split array-largest sum prob*/
 
 #include<bits/stdc++.h>
 using namespace std;
